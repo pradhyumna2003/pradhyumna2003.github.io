@@ -47,50 +47,7 @@ var curchart =new Chart("current", {
     legend: {display: false}
   }
 });
-// new Chart("avg", {
-//   type: "line",
-//   data: {
-//     labels: xValues,
-//     datasets: [{ 
-//       data:y1 ,
-//       borderColor: "red",
-//       fill: false
-//     }, { 
-//       data: y2,
-//       borderColor: "green",
-//       fill: false
-//     }, { 
-//       data: y3,
-//       borderColor: "blue",
-//       fill: false
-//     }]
-//   },
-//   options: {
-//     legend: {display: false}
-//   }
-// });
-// var avgchart =new Chart("avg", {
-//   type: "line",
-//   data: {
-//     labels: xValues,
-//     datasets: [{ 
-//       data:y1 ,
-//       borderColor: "red",
-//       fill: false
-//     }, { 
-//       data: y2,
-//       borderColor: "green",
-//       fill: false
-//     }, { 
-//       data: y3,
-//       borderColor: "blue",
-//       fill: false
-//     }]
-//   },
-//   options: {
-//     legend: {display: false}
-//   }
-// });
+
 function weekReport(){
   var x = document.getElementById("week");
   var text = "";
@@ -158,16 +115,7 @@ function myFunction() {
 
     //
     console.log(response)
-    //y1.push(d1);
-    //y1.shift();
-    // avgchart.data.datasets[0].data=y1;
-    //y2.push(d2);
-   // y2.shift();
-    // avgchart.data.datasets[1].data=y2;
-    //y3.push(d3);
-    //y3.shift()
-    // avgchart.data.datasets[2].data=y3;
-    // avgchart.update()
+ 
   } else {
     // Handle error
   }
