@@ -56,7 +56,7 @@ function weekReport(){
     text += x.elements[i].value ;
   }
 console.log(text)
-const url='https://flask-temp.pradhyumnas.repl.co/week/'+text
+const url='https://79b0dfb4-093a-45fd-a5aa-2afe0e02f892-00-39ieeczg2asdm.kirk.replit.dev/week/'+text
   const xhttpr = new XMLHttpRequest();
   xhttpr.open('GET', url, true);
 
@@ -86,7 +86,7 @@ function weekFxn() {
 }
 function myFunction() {
   const xhttpr = new XMLHttpRequest();
-  xhttpr.open('GET', 'https://flask-temp.pradhyumnas.repl.co/10', true);
+  xhttpr.open('GET', 'https://79b0dfb4-093a-45fd-a5aa-2afe0e02f892-00-39ieeczg2asdm.kirk.replit.dev/10', true);
 
   xhttpr.send();
 
